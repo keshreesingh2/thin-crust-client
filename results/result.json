@@ -1,0 +1,91 @@
+[
+  {
+    "keyword": "Feature",
+    "name": "Selenium Easy Range",
+    "line": 2,
+    "id": "selenium-easy-range",
+    "tags": [
+      {
+        "name": "@SimpleRange",
+        "line": 1
+      }
+    ],
+    "uri": "features/simpleRange.feature",
+    "elements": [
+      {
+        "id": "selenium-easy-range;single-range",
+        "keyword": "Scenario",
+        "line": 6,
+        "name": "Single Range",
+        "tags": [
+          {
+            "name": "@SimpleRange",
+            "line": 1
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 4,
+            "name": "User goes to URL \"http://www.seleniumeasy.com/test/drag-drop-range-sliders-demo.html\"",
+            "match": {
+              "location": "node_modules/thin-crust/support/allSteps.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2161000000
+            }
+          },
+          {
+            "arguments": [
+              {
+                "rows": [
+                  {
+                    "cells": [
+                      "locateBy",
+                      "cssSelector",
+                      "partialText",
+                      "inputType",
+                      "value"
+                    ]
+                  },
+                  {
+                    "cells": [
+                      "css",
+                      "#slider1 input",
+                      "",
+                      "range",
+                      "right-10"
+                    ]
+                  }
+                ]
+              }
+            ],
+            "keyword": "And ",
+            "line": 7,
+            "name": "User \"enters\" following form fields",
+            "match": {
+              "location": "node_modules/thin-crust/support/allSteps.js:48"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 254000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules/thin-crust/support/allSteps.js:16"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

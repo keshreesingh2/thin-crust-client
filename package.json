@@ -1,0 +1,16 @@
+{
+  "name": "thin-crust-client",
+  "version": "0.0.1",
+  "description": "testing thin-crust",
+  "author": "Keshree Raghuwanshi <keshreesingh2@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "test-cukes": "cucumber-js -p test",
+    "gen-report": "node scripts/generate-reports.js",
+    "wd:update": "yarn webdriver-manager update",
+    "wd:start": "yarn webdriver-manager start"
+  },
+  "dependencies": {
+    "thin-crust": "git+https://github.com/keshreesingh2/thin-crust#npm-packaged"
+  }
+}
